@@ -1,0 +1,21 @@
+{
+  "name": "samurai_bingo",
+  "version": "1.0.0",
+  "description": "Like Bingo, but for Samurai",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/thejonanshow/samurai_bingo"
+  },
+  "keywords": [
+    "samurai",
+    "bingo",
+    "mean",
+    "heroku"
+  ],
+  "author": "Jonan Scheffler",
+  "license": "MIT"
+}
