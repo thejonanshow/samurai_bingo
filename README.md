@@ -6,3 +6,5 @@ This is an example application to demonstrate deploying the MEAN stack to
 Heroku.
 
 Samurai Bingo randomly generates bingo cards to use while watching samurai movies. Drinking is optional, screaming gruffly in Japanese is not.
+
+Enjoy!
