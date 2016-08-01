@@ -7,7 +7,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 var mongoose = require('mongoose');
 mongoose.Promise = global.Promise;
 
-var database = 'mongodb://localhost/samuraibingo'
+var database = process.env.ORMONGO_URL || 'mongodb://localhost/samuraibingo'
 mongoose.connect(database)
 
 var Square = mongoose.model('Square', { text: String });
