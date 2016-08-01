@@ -1,0 +1,11 @@
+<!doctype html>
+<html ng-app="samuraiBingo">
+<body ng-controller="mainController">
+  <h1>Samurai Bingo!</h1>
+  <ul>
+    <li ng-repeat="square in squares">{{ square.text }}</li>
+  </ul>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

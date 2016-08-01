@@ -2,7 +2,7 @@
   "name": "samurai_bingo",
   "version": "1.0.0",
   "description": "Like Bingo, but for Samurai",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,5 +17,8 @@
     "heroku"
   ],
   "author": "Jonan Scheffler",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "mongoose": "^4.5.7"
+  }
 }
