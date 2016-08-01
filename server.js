@@ -10,6 +10,8 @@ mongoose.Promise = global.Promise;
 var database = process.env.MONGODB_URI || 'mongodb://localhost/samuraibingo'
 mongoose.connect(database)
 
+var port = process.env.PORT || 3000
+
 var Square = mongoose.model('Square', { text: String });
 
 var screaming = new Square({ text: 'Samurai screams' });
@@ -32,6 +34,6 @@ app.get('/api/squares', function (req, res) {
   });
 });
 
-app.listen(3000, function () {
+app.listen(port, function () {
   console.log('Example app listening on port 3000!');
 });
